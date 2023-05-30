@@ -1,0 +1,31 @@
+html {
+	margin:0;
+	padding:0;
+	background-image: url(bg.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+body{
+	min-height:100vh;
+	background:transparent;
+}
+
+canvas, .table{
+background: #ffffff99;
+    backdrop-filter: blur(4px);
+}
+
+#open_wrapper {
+	position:relative;
+}
+
+#open_wrapper span {
+	position:absolute;
+	inset:0;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	pointer-events:none;
+}

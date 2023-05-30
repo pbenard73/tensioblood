@@ -1,0 +1,31 @@
+html {
+	margin:0;
+	padding:0;
+	background: white;
+}
+
+body{
+	min-height:auto !important;
+	background:transparent;
+}
+
+canvas, .table, #canvaswrapper{
+background: white;
+    width:100% !important;
+}
+
+#open_wrapper {
+	position:relative;
+}
+
+table tr:first-child{
+	display:none;
+}
+
+table tr {
+background:transparent !important;
+}
+
+#open_wrapper, button {
+	display:none !important;
+}
